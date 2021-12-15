@@ -30,6 +30,7 @@ import {
 import Roadmap from './components/Roadmap';
 import About from './components/About';
 import ImageSlider from './components/ImageSlider';
+import CountDown from './components/CountDown';
 
 const truncate = (input, len) =>
   input.length > len ? `${input.substring(0, len)}...` : input;
@@ -371,6 +372,7 @@ function App() {
           )}
         </StyledLink>
       </Banner>
+      <CountDown />
       <About />
       <ImageSlider />
       <Roadmap
